@@ -6,8 +6,8 @@
 
 - git stash 란?
 - git revert 란?
-- git reset이란?
-- git reset과 revert의 차이?
+- git reset 이란?
+- git reset 과 revert 의 차이?
 
 
 
