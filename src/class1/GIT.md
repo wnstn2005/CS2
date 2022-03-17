@@ -10,8 +10,8 @@
 
 ## SVN ?
 
-- SVN은 원격 저장소가 필요 
-- GIT은 로컬 저장소를 지원
+- SVN 은 원격 저장소가 필요 
+- GIT 은 로컬 저장소를 지원
 - 로컬 저장소를 지원하기 때문에 원격 저장소 없이도 사용 가능 (고장나더라도)
 
 ## GIT 의 장점
@@ -58,5 +58,24 @@
 
 5. git push origin master
 - 로컬 저장소의 저장을 변수에 있는 원격 저장소의 경로로 저장하겠다.
-  https://github.com/wnstn2005/test.git
-- https://github.com/wnstn2005/test2.git
+
+
+## Git Download 로직
+
+
+- git pull origin master
+  - 수정된 부분만 로컬로 다운받겠다.
++ git clone <경로>
+  - 프로젝트를 통째로 복사해서 다운받겠다.
+
+
+
+
+## GIT 명령어 추가
+
+git remote -v = 원격 저장소의 경로를 파악하겠다.
+git remote set-url <변수>(origin) <경로> = 원격 저장소의 경로를 변경하곘다.
+git remote remove <변수>(origin) = 원격 저장소 설정을 삭제하겠다.
+
+
+git status = 현재 add 상태 파악

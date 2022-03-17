@@ -16,6 +16,7 @@ public class Number {
 
 
         // byte, short, int, long - 정수형
+
         // byte = -128 < 127 표현 - X
         // short = -32768 < 32767 =65535 - X
         // int  = -2,147,483,648 < 2,147,483,647
@@ -38,6 +39,10 @@ public class Number {
         // 16진수 - 0x로 붙이면 16진수로 표현 가능
 
         int sixteen = 0x2;
+
+        System.out.println(eight);
+        System.out.println(sixteen);
+
 
 
     }
