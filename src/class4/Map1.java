@@ -21,7 +21,7 @@ public class Map1 {
         map.put("나이6", "46");
 
         System.out.println(map.get("나이"));
-        System.out.println(map.get("나이"));
+        System.out.println(map.get("나이3"));
 
         map.remove("나이");
 

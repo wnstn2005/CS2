@@ -21,7 +21,7 @@ public class String1 {
 
         // 이스케이프 기법 (\)
 
-        String e = "as\"df";
+        String e = "as\"df\"";
 
         System.out.println(e);
 

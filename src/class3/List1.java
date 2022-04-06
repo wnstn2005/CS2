@@ -29,7 +29,7 @@ public class List1 {
 
         // 리스트에서 값 바꾸기
 
-        a.set(2, 100);
+        a.set(1, 100);
 
         a.add(0,1);
 
