@@ -9,13 +9,16 @@ public class Cat {
     String type;
 
 
-    void meow() {
+
+
+    public void meow() {
         System.out.println("MEOW");
     }
 
     void punch(){
         System.out.println("낭낭펀치");
     }
+
 
 }
 

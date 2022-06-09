@@ -1,4 +1,4 @@
-package class6;
+package class7;
 
 import java.util.ArrayList;
 

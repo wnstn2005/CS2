@@ -1,5 +1,7 @@
 package class6;
 
+import class7.Men;
+
 public class Test {
     public static void main(String[] args) {
 
@@ -30,5 +32,9 @@ public class Test {
 
         maltiz.setAge(6);
         System.out.println(maltiz.getAge());
+
+
+        Men man = new Men();
+
     }
 }
